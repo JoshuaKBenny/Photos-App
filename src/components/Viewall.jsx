@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
+
 const Viewall = () => {
   const [data, changeData] = useState(
     [
@@ -68,6 +69,7 @@ const Viewall = () => {
 
   return (
     <div>
+        <Navbar/>
       <div className="container">
         <div className="row">
           {
